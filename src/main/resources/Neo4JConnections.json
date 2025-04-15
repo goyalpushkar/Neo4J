@@ -1,0 +1,22 @@
+{
+   "local": {
+	    "db_path":"bolt://127.0.0.1:7687"
+		,"username":"neo4j"
+		,"password":"graphs@21"
+	}
+   ,"dev": {
+	    "db_path":"<<>>"
+		,"username":"<<>>"
+		,"password":"<<>>"
+	}
+   ,"uat": {
+	    "db_path":"<<>>"
+		,"username":"<<>>"
+		,"password":"<<>>"
+   }
+   ,"prod": {
+	    "db_path":"<<>>"
+		,"username":"<<>>"
+		,"password":"<<>>"
+   }
+}
