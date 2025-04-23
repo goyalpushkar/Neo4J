@@ -114,7 +114,6 @@ object ParallelJobs {
       .set("spark.broadcast.factory", "org.apache.spark.broadcast.HttpBroadcastFactory")
       .set("spark.cassandra.output.ignoreNulls","true")
       .set("spark.cassandra.connection.host",hostName)
-      //.set("spark.cassandra.connection.host","enjrhdbcasra01adev.cswg.com")
       .set("spark.cassandra.auth.username", userName)
       .set("spark.cassandra.auth.password", password)
       //.set("spark.eventLog.enabled", "true" )
